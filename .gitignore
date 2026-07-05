@@ -1,0 +1,34 @@
+# Raw and derived imaging data
+*.nii
+*.nii.gz
+*.mif
+*.tck
+*.trk
+*.mat
+
+# Large outputs
+preproc_*/
+coreg_*/
+final_fa_*/
+connectomes_global*/
+analysis_25/
+analysis_ready_regional_FA_volume_*/
+logs*/
+*_tmp*/
+dwi2response-tmp-*/
+
+# Tables and source data
+*.csv
+*.tsv
+*.xlsx
+*.xls
+metadata_sources/
+
+# Python/cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# System files
+._*
+.DS_Store
