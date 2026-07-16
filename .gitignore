@@ -32,3 +32,6 @@ __pycache__/
 # System files
 ._*
 .DS_Store
+
+# Public CHASS atlas ROI metadata
+!docs/ROI_mapping_332_named.csv
